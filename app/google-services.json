@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "287546213899",
+    "firebase_url": "https://pendaftaran-peserta-ujian.firebaseio.com",
+    "project_id": "pendaftaran-peserta-ujian",
+    "storage_bucket": "pendaftaran-peserta-ujian.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287546213899:android:96669af77244afc3f6290e",
+        "android_client_info": {
+          "package_name": "com.example.admin_peserta_ujian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287546213899-fu38uk95hnu2p2p129fu74pma57itho2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin_peserta_ujian",
+            "certificate_hash": "044ed1ecef648dfc11a8f293cd67df0d29c36e07"
+          }
+        },
+        {
+          "client_id": "287546213899-na5pp2bpq1smfs519fhh88b43k3vhki9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqxTFOp68TmBK0P-zqYubI3CTGfL65s0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287546213899-na5pp2bpq1smfs519fhh88b43k3vhki9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287546213899:android:82afcb638a2e7e4ff6290e",
+        "android_client_info": {
+          "package_name": "com.example.pendaftaranpesertaujian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287546213899-7j2gaui4qpgo93asgn6munqfljnpgrvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pendaftaranpesertaujian",
+            "certificate_hash": "044ed1ecef648dfc11a8f293cd67df0d29c36e07"
+          }
+        },
+        {
+          "client_id": "287546213899-na5pp2bpq1smfs519fhh88b43k3vhki9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqxTFOp68TmBK0P-zqYubI3CTGfL65s0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287546213899-na5pp2bpq1smfs519fhh88b43k3vhki9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

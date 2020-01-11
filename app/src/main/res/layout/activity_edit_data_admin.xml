@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Edit_data_admin">
+
+    <EditText
+        android:id="@+id/edtinstansi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instansi / Universitas"/>
+
+    <EditText
+        android:id="@+id/edtunit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit"/>
+
+    <EditText
+        android:id="@+id/edtsabuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sabuk" />
+    <EditText
+        android:id="@+id/edtnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+    <EditText
+        android:id="@+id/edtttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:hint="08/ September/ 1996" />
+    <EditText
+        android:id="@+id/edtalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+    <EditText
+        android:id="@+id/edtpekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pekerjaan" />
+    <EditText
+        android:id="@+id/edtumur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur" />
+    <EditText
+        android:id="@+id/edtberatbadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat Badan" />
+    <Button
+        android:id="@+id/edtbtn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose picture"/>
+    <Button
+        android:id="@+id/btn_simpan_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_peserta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="7dp"
+    app:cardBackgroundColor="@android:color/secondary_text_dark"
+    app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_instansi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Universitas BSI Bandung"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/txt_peserta_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adriansyah Pratama"
+            android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/txt_sabuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Putih"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/txt_bb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67 Kg"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/konfirmasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+

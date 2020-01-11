@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/kuning"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sabuk Putih"/>
+        <Button
+            android:id="@+id/hijau"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sabuk Kuning"/>
+
+        <Button
+            android:id="@+id/biru"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sabuk Hijau"/>
+        <Button
+            android:id="@+id/merah"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sabuk Biru"/>
+
+    <Button
+        android:id="@+id/hitam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Sabuk Merah"/>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Edit"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+    </LinearLayout>
+
+</LinearLayout>

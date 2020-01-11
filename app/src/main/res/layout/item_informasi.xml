@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul_informasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran UKT"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/deskripsi_informasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Pendaftaran Ujian Kenaikan Tingkat (UKT) akan di gelar pada tanggal 20 Maret 2020, persiapkan yah persyaratannya"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
